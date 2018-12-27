@@ -12,7 +12,7 @@ public class task2 {
         Collections.reverse(alpha);
         ArrayList beta = new ArrayList();
         for(int i = 0; i<15;i++){
-            int k = alpha.indexOf(i);
+            int k = alpha.get(i);
              beta.add(k);
         }
         System.out.println(beta);
