@@ -15,7 +15,7 @@ public class Main {
 
         BuyContext buyContext = new BuyContext(serachContext.getDriver());
 
-        buyContext.executeBuy("Иван Иванович","+380665155171","example@gmail.com");
+        buyContext.executeBuy("Антон Антонович","+380500505050","TestMail@gmail.com");
 
         driver.close();
     }
